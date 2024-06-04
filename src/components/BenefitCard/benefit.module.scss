@@ -1,0 +1,24 @@
+.container{
+  background-color: var(--background-green);
+  border-radius: .5rem;
+  padding: 1.5rem;
+
+  h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 1rem 0;
+  }
+}
+
+.icon_container{
+  background-color: var(--primary-light);
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+}

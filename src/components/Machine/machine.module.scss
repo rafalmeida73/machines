@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--background-secondary);
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  position: sticky;
+}
+
+.image360 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: -20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 35rem;
+    width: 35rem;
+  }
+}

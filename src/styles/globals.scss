@@ -1,0 +1,49 @@
+:root {
+  --primary: #3F6745;
+  --primary-light: #CCD5CA;
+  --secondary: #F69F81;
+  --background: #fff;
+  --background-green: #F0EFE9;
+  --background-secondary:#E4E4E4;
+  --text-color: #4B4B4A
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a, button{
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: var(--secondary);
+}
+
+::selection {
+  background: var(--secondary);
+}
